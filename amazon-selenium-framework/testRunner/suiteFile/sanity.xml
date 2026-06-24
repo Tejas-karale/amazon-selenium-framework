@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Amzon_Sanity_Suite">
+
+    <test name="Amazon Sign in page test">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.amzon.tests.SignInPageTest"/>
+        </classes>
+    </test>
+
+</suite>
